@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* session */
+.session-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 90vw;
+    background-color: #6E99AF;
+    border-radius: 20px;
+    color:white;
+    gap: 6px;
+    font-size: 1.2rem;
+}
+
+#rest-time-title {
+    margin-left: 10px;
+}
+
+/* countdown */
+
+.countdown {
+    height:40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown-timer-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: #FE8B20;
+    border-radius: 50%;
+}
+
+#countdown-current-time {
+    color: white;
+    font-size: 3.5em;
+}
+
+/* focus */
+
+#focus-title, #rest-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#focus-timer-button-section, #rest-timer-button-section {
+    height: 25vh;
+    width: 100vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height:75%;
+    width: 100%;
+}
+
+.button-build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+#timer-20 {
+    background-color: #FEB571;
+}
+
+#timer-25 {
+    background-color: #FE9C3F;
+}
+
+#timer-30 {
+    background-color: #FE8B20;
+}
+
+.button-build p {
+    color: white;
+    text-align: center;
+}
+
+.button-build p:nth-child(1) {
+    font-size: 1.8rem;
+    margin-bottom: -12px;
+}
+
+/* rest */
+
+#rest-timer-button-section {
+    margin-top: -25px;
+}
+
+#rest-timer-5 {
+    background-color: #89ACBE;
+}
+
+#rest-timer-10 {
+    background-color: #6E99AF;
+}
+
+#rest-timer-15 {
+    background-color: #57869E;
+}
